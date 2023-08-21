@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-for shuffle_name in ["shuffle_1", "shuffle_2"]:
+for shuffle_name in ["shuffle_1", "shuffle_2", "shuffle_3"]:
     with open(f"{shuffle_name}.json", "rb") as fp:
         all_samples = json.load(fp)
 
